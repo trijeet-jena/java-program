@@ -1,5 +1,5 @@
 /** Demonstrates method overloading with different parameter lists. */
-public class MethodOverloadingDemo {
+public class program3 {
     static int add(int left, int right) {
         return left + right;
     }
@@ -18,3 +18,5 @@ public class MethodOverloadingDemo {
         System.out.println("Three integers: " + add(1, 2, 3));
     }
 }
+
+

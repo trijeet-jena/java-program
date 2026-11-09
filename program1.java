@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /** Demonstrates variables, input, decisions, loops, and arrays. */
-public class ProgrammingConstructs {
+public class program1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an integer score from 0 to 100: ");
@@ -32,3 +32,5 @@ public class ProgrammingConstructs {
         input.close();
     }
 }
+
+

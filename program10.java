@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 
 /** Legacy Java Applet example that adds two numbers. */
 @SuppressWarnings("removal")
-public class SumApplet extends Applet implements ActionListener {
+public class program10 extends Applet implements ActionListener {
     private final TextField firstField = new TextField(10);
     private final TextField secondField = new TextField(10);
     private final Label resultLabel = new Label("Sum: ");
@@ -37,3 +37,5 @@ public class SumApplet extends Applet implements ActionListener {
         }
     }
 }
+
+

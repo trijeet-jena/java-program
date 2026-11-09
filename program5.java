@@ -5,7 +5,7 @@ class InvalidAgeException extends Exception {
     }
 }
 
-public class CustomExceptionDemo {
+public class program5 {
     static void checkVotingAge(int age) throws InvalidAgeException {
         if (age < 18) {
             throw new InvalidAgeException("Age must be at least 18 to vote.");
@@ -22,3 +22,5 @@ public class CustomExceptionDemo {
         }
     }
 }
+
+

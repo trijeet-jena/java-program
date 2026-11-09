@@ -15,7 +15,7 @@ class MessageThread extends Thread {
     }
 }
 
-public class ThreadDemo {
+public class program6 {
     public static void main(String[] args) throws InterruptedException {
         Thread first = new MessageThread("Thread-A", "Hello");
         Thread second = new MessageThread("Thread-B", "Welcome");
@@ -26,3 +26,5 @@ public class ThreadDemo {
         System.out.println("Both threads have completed.");
     }
 }
+
+

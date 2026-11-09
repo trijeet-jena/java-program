@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /** Demonstrates try, catch, and finally for division input. */
-public class ExceptionHandlingDemo {
+public class program4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         try {
@@ -20,3 +20,5 @@ public class ExceptionHandlingDemo {
         }
     }
 }
+
+

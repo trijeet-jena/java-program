@@ -29,7 +29,7 @@ class Cat extends Animal {
 }
 
 /** Shows encapsulation, abstraction, inheritance, and polymorphism. */
-public class OopConceptsDemo {
+public class program2 {
     public static void main(String[] args) {
         List<Animal> animals = Arrays.asList(new Dog("Rex"), new Cat("Mimi"));
         for (Animal animal : animals) {
@@ -37,3 +37,5 @@ public class OopConceptsDemo {
         }
     }
 }
+
+

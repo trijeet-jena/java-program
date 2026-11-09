@@ -28,7 +28,7 @@ class GenericStack<T> {
     }
 }
 
-public class GenericStackDemo {
+public class program8 {
     public static void main(String[] args) {
         GenericStack<Integer> stack = new GenericStack<>();
         stack.push(10);
@@ -39,3 +39,5 @@ public class GenericStackDemo {
         System.out.println("Next item: " + stack.peek());
     }
 }
+
+

@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
 /** A small Swing GUI that adds two numbers. */
-public class AdditionCalculatorSwing {
+public class program9 {
     private static void createAndShowGui() {
         JFrame frame = new JFrame("Sum Calculator");
         JTextField firstField = new JTextField();
@@ -44,6 +44,9 @@ public class AdditionCalculatorSwing {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(AdditionCalculatorSwing::createAndShowGui);
+        SwingUtilities.invokeLater(program9::createAndShowGui);
     }
 }
+
+
+

@@ -19,10 +19,12 @@ class Duck implements Flyable, Swimmable {
     }
 }
 
-public class MultipleInheritanceDemo {
+public class program7 {
     public static void main(String[] args) {
         Duck duck = new Duck();
         duck.fly();
         duck.swim();
     }
 }
+
+
